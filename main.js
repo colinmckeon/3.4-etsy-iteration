@@ -138,11 +138,12 @@ QUESTION #2
    *******************************************/
 
 var iMade = items.filter(function(item) {
-
+  return item.who_made == 'i_did'
 
 
 });
 
+console.log(iMade.length + ' were made by their sellers');
 
 
 
